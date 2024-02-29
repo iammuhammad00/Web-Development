@@ -1,20 +1,16 @@
 body{
-    background-color: rgb(44, 41, 41);
+    background-color: rgba(20, 20, 20, 0.871);
     color: white;
 }
-.headings{
+
+.headings, .Lists, .ilabels{
     font-family: 'Sofia', sans-serif;
     text-align: center;
 }
-.Lists{
-    font-family: 'Sofia', sans-serif;
-    font-weight: bold;
-}
-.media{
-    border-radius: 7px;
-    
-}
 
+.media, .inputs, .select{
+    border-radius: 7px;
+}
 
 hr{
     background-color: rgb(113, 246, 246);
@@ -23,9 +19,7 @@ hr{
     border-radius: 5px;
 }
 
-.inputs{
-    
-    border-radius: 7px;
+.inputs, .select{
     height: 40px;
     width: 250px;
     display: block;
@@ -33,30 +27,12 @@ hr{
     margin-right: auto;
     font-family: 'Sofia', sans-serif;
     font-size: large;
-    
-
 }
-.ilabels{
-    font-size:x-large;
-    font-family:'Sofia',sans-serif;
-    display: flex;
-    justify-content: center;
 
-
-    
-    
-
+.form-group {
+    margin-bottom: 1em;
 }
-.select{
-    height: 40px;
-    width: 250px;
-    border-radius: 7px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: large;
-    font-family: 'Sofia', sans-serif;
-}
+
 @keyframes flicker {
     from { text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #007fe6, 0 0 40px #0023e6, 0 0 50px #0060e6, }
     to { text-shadow: 0 0 20px #fff, 0 0 30px #4d7cff, 0 0 40px #4db8ff, 0 0 50px #4d7cff }
@@ -69,13 +45,7 @@ hr{
 .button{
     border-radius: 7px;
     height: 40px;
-    width: 100px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: large;
-    font-family: 'Sofia', sans-serif;
-
+    width: 100%;
 }
 img{
     background-color: rgb(255, 255, 255);
@@ -85,24 +55,3 @@ img{
     margin-right: auto;
 
 }
-
-
-
-/*
-
-td{
-    border: 2px solid rgb(219, 167, 167);
-}
-p{
-    background-color: aquamarine;
-}
-a{
-    background-color: bisque;
-}
-div{
-    background-color: rgb(177, 215, 248);
-
-}
-span{
-    background-color: aqua;
-} */
