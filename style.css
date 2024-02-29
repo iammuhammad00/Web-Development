@@ -1,7 +1,29 @@
 body{
-    background-color: red;
+    background-color: rgb(44, 41, 41);
     color: white;
 }
-td{
-    border: 2px solid black;
+hr{
+    background-color: rgb(113, 246, 246);
+    border: none;
+    height: 3px;
+    border-radius: 5px;
+
+
 }
+
+/* td{
+    border: 2px solid rgb(219, 167, 167);
+}
+p{
+    background-color: aquamarine;
+}
+a{
+    background-color: bisque;
+}
+div{
+    background-color: rgb(177, 215, 248);
+
+}
+span{
+    background-color: aqua;
+} */

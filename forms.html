@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <script src="script.js "></script>
     <h1>Form for Application</h1>
     <form action="post">
         <div>
@@ -30,6 +32,17 @@
                 <option value="cherry">Cherry</option>
             </select>
         </div>
+        <div>
+            <p>This is a pargraph<span> I am a span</span></p>
+            <a href="https://google.com">Open Google</a>
+            
+            <a href="">Yes he is a inline</a>
+        </div>
+        <div>
+            <label for="username">Username with Pattern</label>
+            <input type="text" name="username" id="username" pattern="[a-zA-Z0-9]+" placeholder="Text and Numbers only" required>
+        </div>
+       
         
     </form>
 </body>
