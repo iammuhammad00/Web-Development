@@ -57,13 +57,15 @@ hr{
     font-size: large;
     font-family: 'Sofia', sans-serif;
 }
-@keyframes flicker {
+/* @keyframes flicker {
     from { text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #007fe6, 0 0 40px #0023e6, 0 0 50px #0060e6, }
     to { text-shadow: 0 0 20px #fff, 0 0 30px #4d7cff, 0 0 40px #4db8ff, 0 0 50px #4d7cff }
-}
+} */
 
 .neonText {
-    animation: flicker 1s ease-in-out infinite alternate;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #007fe6, 0 0 40px #0023e6, 0 0 50px #0060e6;
+    text-shadow: 0 0 20px #fff, 0 0 30px #4d7cff, 0 0 40px #4db8ff, 0 0 50px #4d7cff;
+    /* animation: flicker 1s ease-in-out infinite alternate; */
 }
 
 .button{
